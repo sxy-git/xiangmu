@@ -1,0 +1,410 @@
+.public-header{
+    background:#F7F9FA;
+}
+.index-box{
+    width: 100%;
+    background:#F7F9FA;
+    position: relative;
+}
+/* 顶部导航********** */
+.public-header .header-content .search{
+    float: left;
+    height: 44px;
+    width: 436px;
+    margin-left: 150px;
+    margin-top: 40px;
+    border-radius: 24px;
+    border: 2px solid #FF734C;
+}
+.public-header .header-content .search i{
+    float: left;
+    width: 40px;
+    font-size: 26px;
+    height: 44px;
+    line-height: 44px;
+    margin-left: 20px;
+}
+.public-header .header-content .search input{
+    float: left;
+    height: 44px;
+    outline: none;
+    margin: 0;
+}
+.public-header .header-content .search input:nth-child(2){
+    width: 260px;
+    text-indent: 5px;
+    border: none;
+    background: none;
+    cursor:auto;
+    color: black;
+}
+.public-header .header-content .search input:nth-child(3){
+    /* background: rgb(255, 106, 0); */
+    background-color: #ff6312;
+    background-image: linear-gradient(90deg, #ff6312 0%, #f90000 99%);
+    color: white;
+    width: 116px;
+    height: 44px;
+    border: 0;
+    font-size: 18px;
+    border-radius: 24px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.public-header .header-content .search input:nth-child(3):hover{
+    background: rgb(231, 97, 1);
+}
+.public-header .header-content .search-box{
+  width: 600px;
+}
+.public-header .header-content .search-box .search-hotword{
+  float: left;
+  height: 30px;
+  margin-left: 220px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.public-header .header-content .search-box .search-hotword a{
+  color: #B4BABF;
+  margin-right: 20px;
+}
+.public-header .header-content .search-box .search-hotword a:hover{
+  color: rgb(231, 97, 1);
+}
+
+/*导航***************** */
+#goods .index-box .index-nav{
+    height: 52px;
+    line-height: 52px;
+    padding-top: 10px;
+}
+#goods .index-nav .nav-left{
+    text-align: center;
+    width: 240px;
+    position: relative;
+}
+#goods .index-nav .nav-left a{
+    display: block;
+    width: 240px;
+    height: 52px;
+    color: white;
+    background-color: #ff6e1c;
+    background-image: linear-gradient(90deg, #ff6e1c 0%, #f93200 99%);
+    border-radius: 10px 10px 0 0;
+}
+#goods .index-nav .nav-left a i{
+    margin-left: 30px;
+}
+#goods .index-nav .nav-left a h2{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#goods .index-nav .nav-right{
+    width: 960px;
+    
+}
+#goods .index-nav .nav-right a{
+    color: black;
+}
+#goods .index-nav .nav-right a:hover {
+    color: rgb(255, 106, 0);
+}
+#goods .index-nav .nav-right ul li{
+    float: left;
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+
+/* 信息************* */
+#goods .info{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+#goods .info .info-content .info-nav{
+    height: 44px;
+}
+/* 左侧 */
+#goods .info .info-content .info-left {
+    width: 458px;
+    height: 500px;
+}
+#goods .info .info-content .info-left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/* 右侧 */
+#goods .info .info-content .info-right {
+  float: right;
+  width: 660px;
+  height: 460px;
+}
+    /* 名字 */
+.info-content .info-right .name{
+  height: 22px;
+  line-height: 22px;
+}
+.info-content .info-right .name h1{
+  font-size: 22px;
+  font-weight: bold;
+}
+    /* 价格 */
+.info-content .info-right .price{
+  margin-top: 30px;
+  height: 78px;
+  line-height: 78px;
+  background: #F3F5F7;
+  border-radius: 10px 10px 0px 0px;;
+}
+.info-content .info-right .price-item{
+  height: 50px;
+  line-height: 70px;
+}
+.info-content .info-right .price-bottom{
+  height: 28px;
+  line-height: 28px;
+}
+.info-content .info-right .price .price-l{
+  float: left;
+  width: 100px;
+  height: 50px;
+  color: #71797F;
+  margin-left: 20px;
+}
+.info-content .info-right .price .price-c{
+  display: inline-block;
+  width: 260px;
+  height: 50px;
+}
+.info-content .info-right .price .price-c p{
+  float: left;
+  font-size: 30px;
+  font-weight: 900;
+  color: #FF734C;
+}
+.info-content .info-right .price .price-c i{
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #71797F;
+  font-size: 14px;
+  text-decoration:line-through;  /* 删除线 */
+}
+    /* 花语 */
+.info-content .info-right .huayu{
+  margin-top: 10px;
+  height: 115px;
+  border-bottom: 1px solid #e7ebef;
+}
+.info-content .info-right .huayu .huayu-item{
+  margin-top: 20px;
+  width: 100%;
+  height: 18px;
+  line-height: 18px;
+}
+.info-content .info-right .huayu .huayu-l{
+  width: 100px;
+  margin-left: 20px;
+  color: #71797F;
+}
+.info-content .info-right .huayu .huayu-r{
+  font-size: 16px;
+  float: left;
+  width: 540px;
+  color: #232628;
+}
+.info-content .info-right .huayu .huayu-material{
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+  height: 18px;
+  line-height: 18px;
+}
+      /* 地区 */
+.info-content .info-right .area{
+  margin-top: 10px;
+  height: 80px;
+  border-bottom: 1px solid #e7ebef;
+}
+.info-content .info-right .area .area-item{
+  margin-top: 20px;
+  width: 100%;
+  height: 18px;
+  line-height: 18px;
+}
+.info-content .info-right .area .area-l{
+  width: 100px;
+  margin-left: 20px;
+  color: #71797F;
+}
+.info-content .info-right .area .area-r{
+  color: #232628;
+}
+    /* 按钮 */
+.info-content .info-right .btn-group{
+  height: 100px;
+  line-height: 100px;
+  cursor: pointer;
+}
+.info-content .info-right .btn-group h2{
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+}
+.info-content .info-right .btn-group .addCart{
+  display: inline-block;
+  width: 206px;
+  height: 54px;
+  border: 1px solid rgba(255, 115, 76, 0.2);
+  background: #FFF0EC;
+  color: #FF734C;
+  text-align: center;
+  line-height: 54px;
+  border-radius: 28px;
+  margin-right: 40px;
+}
+.info-content .info-right .btn-group .buy{
+  display: inline-block;
+  width: 206px;
+  height: 54px;
+  border: 1px solid rgba(255, 115, 76, 0.2);
+  color: white;
+  text-align: center;
+  line-height: 54px;
+  border-radius: 28px;
+  background: linear-gradient(90deg, #ff734c 0%, #ff3d12 100%);
+  margin-right: 40px;
+}
+.info-content .info-right .btn-group .collect{
+  display: inline-block;
+}
+.info-content .info-right .btn-group .collect h2{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 100;
+}
+.info-content .info-right .btn-group .addCart i{
+  font-size: 20px;
+  margin-right: 10px;
+}
+.info-content .info-right .btn-group .collect i{
+  margin-right: 10px;
+}
+
+
+.span{
+    width: 1220px;
+    height: 1000px;
+    margin: 50px auto;
+    background-color: #F3F5F7;
+}
+
+/* 右侧悬浮导航**** */
+#goods .info .right-bar{
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: calc((100vw - 1200px)/2 + 1220px);
+    text-align: center;
+}
+
+#goods .info .right-bar ul li {
+  width: 58px;
+  height: 56px;
+  border: 1px solid #e9ecf0;
+  background: white;
+}
+
+#goods .info .right-bar ul i{
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 16px;
+}
+#goods .info .right-bar ul h2{
+    line-height: 20px;
+  margin-top: 3px;
+  font-size: 12px;
+}
+#goods .info .right-bar .saoma{
+  position: absolute;
+  top: 2px;
+  left: -150px;
+  width: 136px;
+  border: 1px solid #e9ecf0;
+  background: white;
+  border-radius: 5px;
+  display: none;
+}
+#goods .info .right-bar .saoma img{
+  width: 100px;
+  height: 100px;
+  margin-top: 14px;
+}
+#goods .info .right-bar .saoma h2{
+  margin-top: 2px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#goods .info .right-bar .saoma h3{
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: rgb(57, 57, 57);
+}
+#goods .info .right-bar ul li:hover .saoma{
+  display: block;
+  z-index: 2222;
+}
+
+/* 底部************** */
+#goods .public-buttom {
+  background-color: #232628;
+}
+.public-buttom .box1 ul{
+  margin: 0;
+  text-align: left;
+}
+.public-buttom .box1 a{
+  float: left;
+
+}
+.public-buttom .box1 b{
+  float: left;
+  font-size: 18px;
+  padding-right: 8px;
+}
+.public-buttom .box1 a li{
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  padding-left: 10px;
+}
+.public-buttom .box1 a li:hover{
+  color: rgb(255, 106, 0);
+}
+.public-buttom .box2{
+  margin-top: 10px;
+  text-align: left;
+}
+.public-buttom .box3{
+  text-align: left;
+}
+.public-buttom .box3 a{
+  color: rgb(115, 115, 115);
+}
+.public-buttom .box3 a:hover {
+  color: rgb(255, 106, 0);
+}
+.public-buttom .box4{
+  margin-top: 5px;
+  text-align: left;
+}
+.public-buttom .box4 a{
+  color: rgb(115, 115, 115);
+}
+.public-buttom .box4 a:hover {
+  color: rgb(255, 106, 0);
+}

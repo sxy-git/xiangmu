@@ -1,0 +1,47 @@
+/* 由于浏览器和一些标签是有默认样式的 可能不需要这些默认 所以需要清除掉 */
+/* 清除浏览器的默认间距 */
+*{
+    margin: 0;padding: 0;
+}
+/* 清除b、strong默认的加粗样式 */
+b,strong{
+    font-weight: normal;
+}
+/* 清除i、em默认的倾斜样式 */
+i,em{
+    font-style: normal
+}
+/* 清除默认下划线的样式 */
+a,u{
+    
+    text-decoration: none
+}
+/* 清除列表标签的默认样式 */
+ul,ol,li{
+    list-style: none
+}
+/* 清除文本输入框点击的默认边框样式 */
+input{
+    outline: none
+}
+/* 解决img、input行内块元素基线对齐的问题*/
+img,input{
+    vertical-align: top;
+}
+/* 解决高度塌陷的方法 */
+.clear-fix::after{
+    content:'';
+    display:block;
+    width:100%;
+    height:0;
+    overflow:hidden;
+    clear:both;
+    visibility:hidden;
+}
+/* 兼容 */
+.clear-fix{
+    zoom: 1;
+}
+h1,h2,h3,h4,h5{
+    font-weight: normal;
+}

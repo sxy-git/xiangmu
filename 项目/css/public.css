@@ -1,0 +1,359 @@
+
+#login{
+    width: 100%;
+    height: 100%;
+}
+/* 导航部分*************************** */
+.public-nav{ 
+    width: 100%;
+    height: 35px;
+    color: rgb(115, 115, 115);
+    background: rgb(242, 242, 242);
+}
+.nav-content{
+    width: 1220px;
+    height: 35px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: rgb(115, 115, 115);
+}
+.nav-content a{
+    float: left;
+    height: 35px;
+    padding-right: 10px;
+    color: rgb(115, 115, 115);
+    line-height: 35px;
+    position: relative;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+/* 伸缩菜单 */
+.nav-content a b{
+    position: absolute;
+    width: 160px;
+    height: 190px;
+    background: rgb(255, 255, 255);
+    /* 为了跟上面边框对齐 */
+    left: -1px;
+    top: 35px;
+    display: none;
+    text-align: center;
+    border: 1px solid rgb(186, 186, 186);
+    color: black;
+}
+.nav-content a b img{
+    width: 115px;
+    height: 115px;
+    margin-top: 20px;
+}
+.nav-content a b h4,.nav-content a b h5{
+    height: 20px;
+}
+.nav-content .nav-left a:nth-of-type(2):hover b{
+    display: block;
+    z-index: 300;
+}
+.nav-content .nav-left a:nth-of-type(3):hover b{
+    display: block;
+    z-index: 300;
+}
+.nav-dropdown:hover{
+    background: white;
+    border-left: 1px solid rgb(186, 186, 186);
+    border-right: 1px solid rgb(186, 186, 186);
+}
+.nav-content a i{
+    /* display: inline-block; */
+    font-size: 22px;
+    color: rgb(255, 182, 128);
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.nav-content a:nth-of-type(6) span i{
+    color: rgb(255, 106, 0);
+}
+.nav-content .nav-left{
+    float: left;
+}
+.nav-content .nav-right{
+    float: right;
+}
+.nav-content .nav-right a:nth-of-type(6) span b{
+    position: absolute;
+    width: 290px;
+    height: 110px;
+    /* 为了跟上面边框对齐 */
+    left: -207px;
+}
+.nav-content .nav-right a:nth-of-type(6):hover b{
+    display: block;
+}
+.nav-content .nav-right >a>span{
+    height: 18px;
+    padding-left: 10px;
+    border-left: 1px solid rgb(186, 186, 186);
+}
+
+
+/*头部************************** */
+.public-header .header-content{
+    height: 120px;
+    width: 1220px;
+    margin: 0 auto;
+    color: rgb(115, 115, 115);
+}
+.public-header .header-content img{
+    float: left;
+    width: 240px;
+    height: 110px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.public-header .header-content input{
+    float: left;
+    height: 32px;
+    margin-top: 40px;
+    outline: none;
+}
+.public-header .header-content input:nth-child(1){
+    width: 235px;
+    margin-left: 250px;
+    text-indent: 5px;
+    border: 1px solid rgb(255, 106, 0);
+}
+.public-header .header-content input:nth-child(2){
+    /* background: rgb(255, 106, 0); */
+    background-color: #ff6312;
+    background-image: linear-gradient(90deg, #ff6312 0%, #f90000 99%);
+    color: white;
+    width: 80px;
+    height: 34px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+.public-header .header-content input:nth-child(2):hover{
+    background: rgb(231, 97, 1);
+}
+.public-header .header-content .contact{
+    float: right;
+    margin-top: 40px;
+}
+.public-header .header-content .contact li{
+    height: 35px;
+    float: left;
+    padding:0 15px;
+    cursor: pointer;
+}
+.public-header .header-content .contact li:nth-child(1){
+    height: 30px;
+    border-right: 1px solid rgb(194, 194, 194);
+}
+.public-header .header-content .contact li i{
+    font-size: 26px;
+    line-height:25px;
+    color:rgb(255, 106, 0) ;
+}
+/* 底部++++++++++++++++++++ */
+.public-buttom {
+    width: 100%;
+    height: 200px;
+    color: rgb(115, 115, 115);
+}
+.public-buttom .box1{
+    width: 1220px;
+    margin: 0 auto;
+    font-size: 13px;
+    padding-top: 30px;
+}
+.public-buttom .box1 ul{
+    margin: 0 auto;
+    width: 1100px;
+    height: 20px;
+    text-align: center;
+}
+.public-buttom .box1 a:hover {
+    color: rgb(115, 115, 115);
+ }
+.public-buttom .box1 ul li{
+    display: inline-block;
+    padding: 0 18px;
+    margin: 0 10px;
+}
+.public-buttom .box1 ul b{
+    display: inline-block;
+}
+.public-buttom .box2{
+    width: 1220px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.public-buttom .box2 img{
+    margin: 0 10px;
+}
+.public-buttom .box3{
+    width: 1220px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.public-buttom .box4{
+    width: 1220px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+}
+/* 所有的标签样式 */
+a{
+    color: rgb(115, 115, 115);
+}
+a:hover {
+    color: rgb(255, 106, 0);
+}
+.centerPage{
+    width: 1220px;
+    height: 100%;
+    margin: 0 auto;
+}
+.Fleft{
+    float: left;
+}
+.Fright{
+    float: right;
+}
+/* 字体****** */
+.FS12{
+    font-size: 12px;
+}
+.FS14{
+    font-size: 14px;
+}
+.FS16{
+    font-size: 16px;
+}
+.FS18{
+    font-size: 18px;
+}
+.FS20{
+    font-size: 20px;
+}
+.FS22{
+    font-size: 22px;
+}
+.FS24{
+    font-size: 24px;
+}
+/*字体加粗*/
+.FTW{
+    font-weight: bold;
+}
+/* 文本居中*** */
+.TAC{
+    text-align: center;
+}
+/* margin******** */
+.MG0{
+    margin: 0   ;
+}
+.MT0{
+    margin-top: 0;
+}
+.MT5{
+    margin-top: 5px;
+}
+.MT10{
+    margin-top: 10px;
+}
+.MT15{
+    margin-top: 15px;
+}
+.MT20{
+    margin-top: 20px;
+}
+.MT25{
+    margin-top: 25px;
+}
+.MT30{
+    margin-top: 30px;
+}
+.MB0{
+    margin-bottom: 0;
+}
+.MB5{
+    margin-bottom: 5px;
+}
+.MB10{
+    margin-bottom: 10px;
+}
+.MB15{
+    margin-bottom: 15px;
+}
+.MB20{
+    margin-bottom: 20px;
+}
+.MB25{
+    margin-bottom: 25px;
+}
+.MB30{
+    margin-bottom: 30px;
+}
+.ML0{
+    margin-left: 0;
+}
+.ML5{
+    margin-left: 5px;
+}
+.ML10{
+    margin-left: 10px;
+}
+.ML15{
+    margin-left: 15px;
+}
+.ML20{
+    margin-left: 20px;
+}
+.ML25{
+    margin-left: 25px;
+}
+.ML30{
+    margin-left: 30px;
+}
+.MR0{
+    margin-right: 0;
+}
+.MR5{
+    margin-right: 5px;
+}
+.MR10{
+    margin-right: 10px;
+}
+.MR15{
+    margin-right: 15px;
+}
+.MR20{
+    margin-right: 20px;
+}
+.MR25{
+    margin-right: 25px;
+}
+.MR30{
+    margin-right: 30px;
+}
+.PL10{
+    padding-left: 10px;
+}
+/* 颜色********** */
+.colorB{
+    color: black;
+}
+.colorW{
+    color: white;
+}
+.bgB{
+    background: black;
+}
+.bgW{
+    background: white;
+}

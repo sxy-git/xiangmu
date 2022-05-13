@@ -1,0 +1,227 @@
+
+/*背景************************** */
+.login-banner{
+    width: 100%;
+    height: 474px;
+    background: url(../images/regin/login_bg.jpg) no-repeat center;
+}
+.login-banner .login-content{
+    width: 1220px;
+    height: 474px;
+    margin: 0 auto;
+}
+.login-banner .login-content .login-box{
+    float: right;
+    width: 360px;
+    height: 435px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+.login-banner .login-content .login-box .box-top{
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.login-banner .login-content .login-box .box-top ul{
+    float: left;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.login-banner .login-content .login-box .box-top ul li{
+    text-align: center;
+    width: 120px;
+    line-height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 30px;
+    box-sizing: content-box;
+}
+/* 添加的类名，点击之后会高亮 */
+.bottom-light{
+    border-bottom: 2px solid rgb(255, 106, 0);
+    color: rgb(255, 106, 0);
+}
+
+/* 登录页面****** */
+.login-banner .login-content .login-box .box-center-login{
+    width: 300px;
+    height: 260px;
+    margin-left: 30px;
+    display: none;
+}
+.login-banner .login-content .login-box  .block{
+    display: block;
+}
+.login-banner .login-content .login-box .box-center-login .input-box{
+    width: 300px;
+    height: 67px;
+}
+/* 手机验证码登录 */
+.login-banner .switchover{
+    margin: 20px 0 -20px 205px;
+    font-size: 13px;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    }
+/* }账号登录切换手机验证码 */
+/* 切换 */
+.login-banner .usercodeLog{
+    display:none;
+}
+/* 账号登录页面*******************/
+/* 提示语句 */
+.login-banner .login-content .login-box .box-center-login .input-box p{
+    margin-top: 5px;
+    padding-left: 40px;
+    font-size: 14px;
+    color: red;
+    line-height: 19px;
+}
+/* 输入框和图标的盒子 */
+.login-banner .login-content .login-box .box-center-login .login-input{
+    width: 300px;
+    height: 32px;
+    border: 1px solid rgb(204, 204, 204);
+}
+.login-banner .login-content .login-box .box-center-login .phonecodeLog .input-box:nth-child(1){
+    margin-top: 30px;
+}
+/* 输入框前的小图标 */
+.login-banner .login-content .login-box .box-center-login .input-box .login-input i{
+    float:left;
+    text-align: center;
+    line-height: 32px;
+    width: 40px;
+    height: 32px;
+    font-size: 24px;
+    color: rgb(184, 183, 183);
+}
+.login-banner .login-content .login-box .box-center-login .input-box .login-input input{
+    width: 260px;
+    height: 32px;
+    float: left;
+    border: 0;
+}
+/* 登录按钮 */
+.login-banner .login-content .login-box .box-center-login .phonecodeLog>input {
+    width: 300px;
+    height: 34px;
+    float: left;
+    border: 0;
+    border-radius: 17px;
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    background: rgb(255, 115, 76);
+    cursor: pointer;
+}
+.login-banner .login-content .login-box .box-center-login h2{
+    width: 300px;
+    height: 17px;
+    float: left;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(142, 140, 140);
+    cursor: pointer;
+}
+/*手机验证码页面**********************/
+.login-banner .login-content .login-box .box-center-login .usercodeLog .input-box:nth-child(1){
+    margin-top: 30px;
+}
+.login-banner .login-content .login-box .box-center-login .input-box .login-input input:nth-child(2){
+    width: 160px;
+    height: 32px;
+    float: left;
+    border: 0;
+}
+/*获取验证码*/
+.login-banner .gainCode{
+    width: 100px;
+    height: 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* 登录按钮 */
+.login-banner .login-content .login-box .box-center-login .usercodeLog>input {
+    width: 300px;
+    height: 34px;
+    float: left;
+    border: 0;
+    border-radius: 17px;
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    background: rgb(255, 115, 76);
+    cursor: pointer;
+}
+/* 微信扫码登录 */
+.login-banner .login-content .login-box .box-center-wei{
+    width: 300px;
+    height: 260px;
+    margin-left: 30px;
+    display: none;
+}
+.login-banner .login-content .login-box  .block{
+    display: block;
+}
+.login-banner .login-content .login-box .box-center-wei .weixinimg{
+    width: 150px;
+    height: 150px;
+    margin:0 auto;
+    margin-top: 60px;
+}
+.login-banner .login-content .login-box .box-center-wei .weixinimg img{
+    width: 100%;
+    height: 100%;
+}
+.login-banner .login-content .login-box .box-center-wei .weixinimg h3{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+/* 底部**************** */
+.login-banner .login-content .login-box .box-floor{
+    /* float: left; */
+width: 360px;
+height: 50px;
+background: rgb(247, 249, 250);
+position: absolute;
+bottom: 0;
+border-radius: 0 0 10px 10px;
+}
+.box-floor .qq{
+    float: left;
+    width: 250px;
+    height: 50px;
+}
+.box-floor .qq i{
+    float: left;
+    line-height: 50px;
+    font-size: 20px;
+    color: rgb(32, 172, 253);
+    margin-left: 28px;
+    cursor: pointer;
+}
+.box-floor .qq h3{
+    float: left;
+    line-height: 50px;
+    font-size: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.box-floor .tiaozhuan{
+    float: left;
+    height: 50px;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.box-floor .tiaozhuan a{
+    color: rgb(255, 115, 76);
+}

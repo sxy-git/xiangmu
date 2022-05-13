@@ -1,0 +1,3 @@
+{"name":"爱情","desc":"送 · 让你怦然心动的人","createdAt":1651332538456,"updatedAt":1651333740218,"id":5,"parent":0,"cover_image":"/uploads/d824dd5d-310d-4f40-a59b-3aed2dd5f6c0.png","_id":5}
+{"name":"送长辈","desc":"赠 · 父母/恩师/长辈","createdAt":1651333730007,"updatedAt":1651333730007,"id":6,"parent":0,"cover_image":"/uploads/75da284a-be17-486c-9fd4-f30cb2a5cce9.png","_id":6}
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}

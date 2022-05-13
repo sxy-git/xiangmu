@@ -1,0 +1,9 @@
+{"product":37,"amount":5,"price":239,"user":1,"createdAt":1652350973715,"updatedAt":1652368024664,"id":9,"_id":9}
+{"product":29,"amount":1,"price":339,"user":1,"createdAt":1652358373231,"updatedAt":1652368015554,"id":11,"_id":11}
+{"product":31,"amount":1,"price":146,"user":1,"createdAt":1652368172352,"updatedAt":1652368172352,"id":12,"_id":12}
+{"product":38,"amount":2,"price":370,"user":1,"createdAt":1652368179696,"updatedAt":1652368181125,"id":13,"_id":13}
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"product":31,"amount":2,"price":146,"user":1,"createdAt":1652368172352,"updatedAt":1652402439428,"id":12,"_id":12}
+{"product":31,"amount":3,"price":146,"user":1,"createdAt":1652368172352,"updatedAt":1652402440513,"id":12,"_id":12}
+{"product":29,"amount":2,"price":339,"user":1,"createdAt":1652358373231,"updatedAt":1652402442096,"id":11,"_id":11}
+{"product":31,"amount":2,"price":146,"user":1,"createdAt":1652368172352,"updatedAt":1652402444038,"id":12,"_id":12}

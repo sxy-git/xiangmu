@@ -1,0 +1,5 @@
+{"name":"首页1","category":1,"desc":"","link":"https://img02.hua.com/zhuanti/mothersday/2022/pc_mothersday_banner.jpg?v1","createdAt":1651330881023,"updatedAt":1651331397606,"id":1,"url":"","cover_image":"/uploads/9a7bdaad-b306-4211-9048-72d839667f04.jpg","_id":1}
+{"name":"首页2","category":1,"desc":"","link":"https://img02.hua.com/slider/21_jnz_banner_pc.jpg","createdAt":1651331414230,"updatedAt":1651331414230,"id":2,"url":"","cover_image":"/uploads/76e94af8-b5e4-4004-aabc-3211ad6f8664.jpg","_id":2}
+{"name":"首页3","category":1,"desc":"","link":"https://img02.hua.com/slider/21_brand_banner_pc.jpg","createdAt":1651331478428,"updatedAt":1651331478428,"id":3,"url":"","cover_image":"/uploads/bceef9bf-34da-403f-b435-d2da2718cab7.jpg","_id":3}
+{"name":"首页4","category":1,"desc":"","link":"https://img02.hua.com//chanpintupian/2022banner/22_birthday__pc.png","createdAt":1651331544790,"updatedAt":1651331544790,"id":4,"url":"","cover_image":"/uploads/0540245a-b6bc-4e1f-9eec-0911c3f293ec.png","_id":4}
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}

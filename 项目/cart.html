@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/axios.min.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/public.css" />
+    <link rel="stylesheet" href="./css/cartList.css" />
+    <link
+      rel="stylesheet"
+      href="http://at.alicdn.com/t/font_2983992_peurgcx8xp.css"
+    />
+  </head>
+  <body>
+    <div id="cart">
+      <!-- 顶部导航***** -->
+      <div class="public-nav">
+        <div class="nav-content">
+          <div class="nav-left">
+            <a href="javascript:void(0)"
+              ><i class="iconfont icon-favorfill"></i>收藏花礼网(hua.com)</a
+            >
+            <a href="javascript:void(0)" class="nav-dropdown"
+              ><i class="iconfont icon-weixin"></i>关注微信
+              <b class="weixin"
+                ><img src="./images/regin/wxguanjia.png" alt="" />
+                <h4>扫码关注</h4>
+                <h5>回复"礼物"更多惊喜！</h5></b
+              ></a
+            >
+            <a href="javascript:void(0)" class="nav-dropdown"
+              ><i class="iconfont icon-shouji1"></i>花礼网App<b
+                ><img src="./images/regin/app.png" alt="" />
+                <h4>新人专享100元APP礼包</h4></b
+              ></a
+            >
+          </div>
+          <div class="nav-right">
+            <a href="./login.html" class="loginName">你好，请登录</a>
+            <a href="./regin.html" class="quitName">注册</a>
+            <a href="javascript:void(0)"><span>订单查询</span></a>
+            <a href="javascript:void(0)"><span>我的花礼</span></a>
+            <a href="javascript:void(0)"><span>客户服务</span></a>
+            <a href="cart.html" class="nav-dropdown"
+              ><span
+                ><i class="iconfont icon-gouwugouwuchedinggou"></i>购物车<b
+                  class="cart"
+                  ><h4>您的购物车中没有商品，先去选购吧！</h4></b
+                ></span
+              ></a
+            >
+            <a href="javascript:void(0)"
+              ><span>鲜花礼品网：中国领先的鲜花网品牌</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- 头部****** -->
+      <div class="public-header">
+        <div class="header-content">
+          <a href="./index.html">
+            <img src="./images/regin/big-logo.png" alt=""
+          /></a>
+          <div class="contact">
+            <li><i class="iconfont icon-fl-dianhua"></i>400-889-8188</li>
+            <li><i class="iconfont icon-erji"></i>在线客服</li>
+          </div>
+        </div>
+      </div>
+      <div class="cartList">
+        <div class="cartGoods">
+          <div class="cart-title">
+            <ul>
+              <li class="selecter"></li>
+              <li class="product">商品名称</li>
+              <li class="market-price">市场价</li>
+              <li class="order-price">订购价</li>
+              <li class="num">数量</li>
+              <li class="operate">操作</li>
+            </ul>
+          </div>
+          <div class="cart-item">
+            <!-- <ul>
+              <li class="selecter"><i></i></li>
+              <li class="product">
+                <a href="">
+                  <img
+                    src="https://img01.hua.com/uploadpic/newpic/1076119.jpg_80x87.jpg"
+                    alt=""
+                  />
+                  <div class="product-name">
+                    <h2>
+                      玫瑰花撒地方撒的发生阿萨德阿萨德阿萨德阿瑟大师的撒的as
+                    </h2>
+                  </div>
+                </a>
+              </li>
+              <li class="market-price">266</li>
+              <li class="order-price">188</li>
+              <li class="num"><span>-</span><input type="text" maxlength="3" value="1"><span>+</span></li>
+              <li class="operate">删除</li>
+            </ul> -->
+          </div>
+        </div>
+        <div class="cartFloor">
+          <div class="floor-l Fleft">
+            <i class="iconfont icon-shouye"></i>
+            <a href="index.html" class="FS14">继续挑选</a>
+          </div>
+          <a href="" class="floor-btn Fright">去结算</a>
+          <div class="floor-r Fright">
+            <h2 class="FS14 Fleft">应付金额：</h2>
+            <h3 class="FS22 Fleft MR10 money"></h3>
+          </div>
+        </div>
+      </div>
+      <div class="fuwu">
+        <div class="referElem">
+          <div class="main-server">
+            <ul>
+              <a href="">
+                <i class="iconfont icon-huangguanguanjundiyihuiyuan"></i>
+                <h2>鲜花电商龙头企业</h2>
+              </a>
+              <a href="">
+                <i class="iconfont icon-jiangbei"></i>
+                <h2>15年品牌 真实口碑</h2>
+              </a>
+              <a href="">
+                <i class="iconfont icon-shizhong"></i>
+                <h2>3小时全国送花</h2>
+              </a>
+              <a href="">
+                <i class="iconfont icon-zhaoxiangji"></i>
+                <h2>鲜花送前实拍展示</h2>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 底部***************** -->
+      <div class="public-buttom">
+        <div class="box1">
+          <ul>
+            <a href="./index.html">
+              <li class="">首页</li>
+            </a>
+            <b>|</b>
+            <a href=""> <li>关于我们</li> </a
+            ><b>|</b>
+            <a href=""> <li>媒体报道</li> </a
+            ><b>|</b>
+            <a href=""> <li>联系方式</li> </a
+            ><b>|</b>
+            <a href=""> <li>企业团购</li> </a
+            ><b>|</b>
+            <a href=""> <li>花店入驻</li> </a
+            ><b>|</b>
+            <a href=""> <li>友情链接</li> </a
+            ><b>|</b>
+            <a href=""> <li>在线补款</li> </a
+            ><b>|</b>
+            <a href="">
+              <li>为什么选择花礼网</li>
+            </a>
+          </ul>
+        </div>
+        <div class="box2">
+          <img src="./images/regin/slogan.png" alt="" /><img
+            src="./images/regin/100.jpg"
+            alt=""
+          /><img src="./images/regin/bico1.jpg" alt="" /><img
+            src="./images/regin/bico2.jpg"
+            alt=""
+          />
+        </div>
+        <div class="box3">
+          <a href="" class="ML10">中国花卉协会会员</a
+          ><a href="">中国电子商务协会会员 </a><em href="">ICP经营许可证：</em
+          ><a href="">粤B2-20050744 </a><a href=""> | 粤ICP备09171662号</a
+          ><em href="">粤公网安备44030502000373号 Copyright © 2005-2022</em>
+        </div>
+        <div class="box4">
+          <em class="ML10">花礼网</em>
+          <a href="http://www.hua.com">www.hua.com </a
+          ><em> 中国领先的鲜花礼品网，品牌鲜花网服务，鲜花速递专家！</em>
+        </div>
+      </div>
+    </div>
+    <!-- 登录前判断是否有用户登录 -->
+    <script>
+      let loginName = document.querySelector(".loginName");
+      let quitName = document.querySelector(".quitName");
+      let has = localStorage.getItem("username");
+      if (has) {
+        loginName.innerHTML = "你好" + has;
+        quitName.innerHTML = "退出";
+        loginName.href = "javascript:void(0)";
+        quitName.href = "javascript:void(0)";
+      }
+      if (quitName.innerHTML == "退出") {
+        quitName.onclick = function () {
+          localStorage.removeItem("username");
+          localStorage.removeItem("token");
+          // localStorage.clear();全部清空
+          quitName.innerHTML = "注册";
+          loginName.innerHTML = "你好，请登录";
+          loginName.href = "./login.html";
+          quitName.href = "./regin.html";
+        };
+      }
+    </script>
+    <script>
+      //下面选择按钮的数组
+      let arr = [];
+      upList();
+      function upList() {
+        let url = `/shop_carts`;
+        get(url).then((r) => {
+          let str = [];
+
+          //判断购物车是否为空
+          if (r.data.length == 0) {
+            let cartList = document.querySelector(".cartList");
+            str += `<div class="imgBox">
+                    <img src="https://img02.hua.com/pc/images/gwc_k2.jpg" alt="">
+                    <a href="index.html">去逛逛 ></a>
+                </div>`;
+            cartList.innerHTML = str;
+          }
+          console.log(r.data);
+          r.data.forEach(function (v, i) {
+            str += `
+            <ul>
+            <li class="selecter"><i onclick=checkbox(${v.amount},${
+              v.product.price
+            },${v.id},this)></i></li>
+              <li class="product">
+                <a href="goodsInfo.html?id=${v.product.id}">
+                  <img
+                    src="http://localhost:1337${v.product.coverImage}"
+                    alt=""
+                  />
+                  <div class="product-name">
+                    <h2>
+                        【鲜花】${v.product.name}
+                    </h2>
+                  </div>
+                </a>
+              </li>
+              <li class="market-price">￥${v.product.price + 60}</li>
+              <li class="order-price">￥${v.product.price}</li>
+              <li class="num"><span onclick="numDel(${
+                v.product.id
+              },this)">-</span><input type="text" maxlength="3" value="${
+              v.amount
+            }"><span onclick="numAdd(${v.product.id},this)">+</span></li>
+              <li class="operate" onclick="delCart(${v.id})">删除</li>
+            </ul>
+            `;
+          });
+          document.querySelector(".cartList .cart-item").innerHTML = str;
+        });
+        //每次刷新列表就把按钮和价钱清空*********
+        arr = [];
+        document.querySelector(
+          ".cartList .cartFloor .floor-r .money"
+        ).innerHTML = "￥" + 0;
+      }
+      //   删除商品
+      function delCart(id) {
+        let url = `/shop_carts/${id}`;
+        delete1(url).then((r) => {
+          location.reload();
+        });
+      }
+      // 商品数量加1
+      function numAdd(id, btn) {
+        let url = `/shop_carts`;
+        // product
+        // 	amount		//	根据传递的数量正负，会自动的计算最新的数量
+        // 	price
+        let product = id;
+        let amount = 1;
+        let iptValue = btn.parentNode.children[1];
+        post(url, { product, amount }).then((r) => {
+          iptValue.value++;
+          upList();
+        });
+      }
+      // 商品数量减1
+      function numDel(id, btn) {
+        let url = `/shop_carts`;
+        // product
+        // 	amount		//	根据传递的数量正负，会自动的计算最新的数量
+        // 	price
+        let product = id;
+        let amount = -1;
+        let iptValue = btn.parentNode.children[1];
+        post(url, { product, amount }).then((r) => {
+          if (iptValue.value > 1) {
+            iptValue.value--;
+            upList();
+          }
+        });
+      }
+      //   选中商品结算
+      function checkbox(amount, price, id, btn) {
+        let sum = 0;
+        let str = { amount, price, id };
+        //判断数组中是否已经有了这个商品，没有就添加进去，按钮显示，有的话就删除，按钮隐藏
+        let r = arr.every(function (v, i) {
+          return v.id != id;
+        });
+        if (r == true) {
+          btn.innerHTML = `<img src="https://img02.hua.com/pc/assets/img/ico_checkout.png" alt="">`;
+          arr.push(str);
+          arr.forEach(function (evt, index) {
+            sum += evt.amount * evt.price;
+          });
+        } else {
+          btn.innerHTML = ``;
+          arr = arr.filter((v) => v.id != id);
+          arr.forEach(function (evt, index) {
+            sum += evt.amount * evt.price;
+          });
+        }
+        document.querySelector(
+          ".cartList .cartFloor .floor-r .money"
+        ).innerHTML = "￥" + sum;
+      }
+    </script>
+  </body>
+</html>

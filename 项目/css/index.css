@@ -1,0 +1,573 @@
+/* 顶部导航********** */
+.public-header .header-content .search{
+    float: left;
+    height: 44px;
+    width: 436px;
+    margin-left: 150px;
+    margin-top: 40px;
+    border-radius: 24px;
+    border: 2px solid #FF734C;
+}
+.public-header .header-content .search i{
+    float: left;
+    width: 40px;
+    font-size: 26px;
+    height: 44px;
+    line-height: 44px;
+    margin-left: 20px;
+}
+.public-header .header-content .search input{
+    float: left;
+    height: 44px;
+    outline: none;
+    margin: 0;
+}
+.public-header .header-content .search input:nth-child(2){
+    width: 260px;
+    text-indent: 5px;
+    border: none;
+    background: none;
+    cursor:auto;
+    color: black;
+}
+.public-header .header-content .search input:nth-child(3){
+    /* background: rgb(255, 106, 0); */
+    background-color: #ff6312;
+    background-image: linear-gradient(90deg, #ff6312 0%, #f90000 99%);
+    color: white;
+    width: 116px;
+    height: 44px;
+    border: 0;
+    font-size: 18px;
+    border-radius: 24px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.public-header .header-content .search input:nth-child(3):hover{
+    background: rgb(231, 97, 1);
+}
+.public-header .header-content .search-box{
+  width: 600px;
+}
+.public-header .header-content .search-box .search-hotword{
+  float: left;
+  height: 30px;
+  margin-left: 220px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.public-header .header-content .search-box .search-hotword a{
+  color: #B4BABF;
+  margin-right: 20px;
+}
+.public-header .header-content .search-box .search-hotword a:hover{
+  color: rgb(231, 97, 1);
+}
+/*导航***************** */
+#index .index-nav{
+    height: 52px;
+    line-height: 52px;
+    padding-top: 10px;
+}
+#index .index-nav .nav-left{
+    text-align: center;
+    width: 240px;
+    position: relative;
+}
+#index .index-nav .nav-left a{
+    display: block;
+    width: 240px;
+    height: 52px;
+    color: white;
+    background-color: #ff6e1c;
+    background-image: linear-gradient(90deg, #ff6e1c 0%, #f93200 99%);
+    border-radius: 10px 10px 0 0;
+}
+#index .index-nav .nav-left a i{
+    margin-left: 30px;
+}
+#index .index-nav .nav-left a h2{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+/* 导航下拉菜单 */
+#index .index-nav .nav-left .dropdown-cate{
+    width: 240px;
+    height: 480px;
+    background: url("https://img02.hua.com/pc/pimg/home/black-bg.png");
+    color: white;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    z-index: 200;
+}
+#index .index-nav .nav-right{
+    width: 960px;
+}
+#index .index-nav .nav-right a{
+    color: black;
+}
+#index .index-nav .nav-right a:hover {
+    color: rgb(255, 106, 0);
+}
+#index .index-nav .nav-right ul li{
+    float: left;
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+/* banner**************** */
+#index .banner{
+    width: 100%;
+    height: 480px;
+}
+
+
+/* 轮播图********************* */
+      /* css 重置 */
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      /* body {
+        background: #fff;
+        font: normal 12px/22px 宋体;
+      } */
+      img {
+        border: 0;
+      }
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      /* 本例子css */
+      .slideBox {
+        height: 480px;
+        overflow: hidden;
+        position: relative;
+        border: 1px solid #ddd;
+        margin: 0 auto;
+      }
+     
+      .slideBox .hd {
+        height: 15px;
+        overflow: hidden;
+        position: absolute;
+        right: 45%;
+        bottom: 5px;
+        z-index: 1;
+      }
+      .slideBox .hd ul {
+        overflow: hidden;
+        zoom: 1;
+        float: left;
+      }
+      .slideBox .hd ul li {
+        float: left;
+        margin-right: 10px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50% 50%;
+        text-align: center;
+        background: #fff;
+        cursor: pointer;
+      }
+      .slideBox .hd ul li.on {
+        background: #f00;
+        color: #fff;
+      }
+      .slideBox .bd {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+      }
+      .slideBox .bd li {
+        zoom: 1;
+        vertical-align: middle;
+      }
+      .slideBox .bd li a{
+        width: 100%;
+      }
+      .slideBox .bd img {
+        width: 100%;
+        height: 480px;
+        display: block;
+      }
+
+      /* 下面是前/后按钮代码，如果不需要删除即可 */
+      .slideBox .prev,
+      .slideBox .next {
+        position: absolute;
+        left: 32%;
+        top: 50%;
+        margin-top: -25px;
+        display: block;
+        width: 32px;
+        height: 40px;
+        border-radius: 5px;
+        background: url(http://www.superslide2.com/demo/images/slider-arrow.png) -110px
+          5px no-repeat;
+        filter: alpha(opacity=50);
+        opacity: 0.5;
+        
+      }
+      .slideBox .next {
+        left: auto;
+        right: 20%;
+        background-position: 8px 5px;
+      }
+      /* .slideBox .prev:hover,
+      .slideBox .next:hover {
+        filter: alpha(opacity=100);
+        opacity: 1;
+      } */
+      .slideBox:hover .prev,.slideBox:hover .next{
+        background-color: #ff6e1c;
+        filter: alpha(opacity=100);
+        opacity: 0.8;
+      }
+      .slideBox .prevStop {
+        display: none;
+      }
+      .slideBox .nextStop {
+        display: none;
+      }
+
+/* 服务************** */
+#index .referElem{
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+#index .referElem .main-server{
+    height: 60px;
+}
+#index .referElem .main-server ul {
+    display: flex;
+    justify-content:space-between;
+}
+#index .referElem .main-server a{
+    /* float: left; */
+    line-height: 60px;
+}
+#index .referElem .main-server a i{
+    float: left;
+    color: #ff6e1c;
+    font-size: 24px;
+}
+#index .referElem .main-server a h2{
+    float: left;
+    margin-left: 6px;
+    font-size: 20px;
+    
+}
+#index .referElem .right-bar{
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: calc((100vw - 1200px)/2 + 1220px);
+    text-align: center;
+}
+
+#index .referElem .right-bar ul li {
+  width: 58px;
+  height: 56px;
+  border: 1px solid #e9ecf0;
+  background: white;
+}
+
+#index .referElem .right-bar ul i{
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+}
+#index .referElem .right-bar ul h2{
+  margin-top: 3px;
+  font-size: 12px;
+}
+#index .referElem .right-bar .saoma{
+  position: absolute;
+  top: 2px;
+  left: -150px;
+  width: 136px;
+  border: 1px solid #e9ecf0;
+  background: white;
+  border-radius: 5px;
+  display: none;
+}
+#index .referElem .right-bar .saoma img{
+  width: 100px;
+  height: 100px;
+  margin-top: 14px;
+}
+#index .referElem .right-bar .saoma h2{
+  margin-top: 2px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#index .referElem .right-bar .saoma h3{
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: rgb(57, 57, 57);
+}
+#index .referElem .right-bar ul li:hover .saoma{
+  display: block;
+  z-index: 2222;
+}
+/* 种类**************** */
+#index .kind{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+/* 并列四个盒子 */
+#index .kind .kindBox{
+  width: 288px;
+  height: 376px;
+  float: left;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#index .kind .kindBox:nth-child(1){
+  background: url(../images/lover.jpg);
+}
+#index .kind .kindBox:nth-child(3){
+  background: url(../images/birthday.jpg);
+}
+/* 上下盒子 */
+#index .kind .kindBox .upAnddown{
+  width: 288px;
+  height: 180px;
+  border-radius: 10px;
+}
+#index .kind .kindBox:nth-child(2) .upAnddown:nth-child(1){
+  background: url(../images/elder2.jpg);
+}
+#index .kind .kindBox:nth-child(2) .upAnddown:nth-child(2){
+  margin-top: 16px;
+  background: url(../images/friend.jpg);
+}
+#index .kind .kindBox:nth-child(4) .upAnddown:nth-child(2){
+  margin-top: 16px;
+  background: url(../images/you_2.jpg);
+}
+/* 左右盒子 */
+#index .kind .kindBox .upAnddown .LandR{
+  width: 136px;
+  height: 180px;
+  border-radius: 10px;
+  float: left;
+}
+#index .kind .kindBox .upAnddown .LandR:nth-child(1){
+  background: url(../images/express.jpg);
+}
+#index .kind .kindBox .upAnddown .LandR:nth-child(2){
+  margin-left: 16px;
+  background: url(../images/business.png);
+}
+
+
+/* 热销榜单**************** */
+#index .hotTop{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+#index .hotTopBox{
+  width: 288px;
+  height: 172px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#index .hotTopBox:nth-child(1){
+  background: url(../images/rexiao.png);
+}
+#index .hotTopBox:nth-child(2){
+  background: url(../images/tejia.png);
+}
+#index .hotTopBox:nth-child(3){
+  background: url(../images/xinpin.png);
+}
+#index .hotTopBox:nth-child(4){
+  background: url(../images/pinwei.png);
+}
+
+/* 鲜花专区************* */  
+     /*标题*/
+#index .flower-Space .hd{
+  height: 30px;
+  line-height: 30px;
+}
+#index .flower-Space .hd .hd-l a{
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+#index .flower-Space .hd .hd-l span{
+  font-size: 20px;
+  padding-left: 10px;
+  border-left: 1px solid black;
+}
+      /* 内容*/
+#index .flower-Space .bd{
+  height: 656px;
+  background: #F7F9FA;
+  margin-top: 16px;
+}
+        /*右边*/
+#index .flower-Space .bd .bd-r{
+  width: 932px;
+}
+#index .flower-Space .bd .bd-r .box{
+  float: left;
+  width: 217px;
+  height: 319px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  text-align: center;
+}
+#index .flower-Space .bd .bd-r .box:hover{
+  color: #ff6e1c;
+}
+        /* 图片*** */
+#index .flower-Space .bd .bd-r .box .imgBox{
+  width: 217px;
+  height: 230px;
+  overflow: hidden;
+}
+#index .flower-Space .bd .bd-r .box .imgBox img{
+  width: 100%;
+  height: 100%;
+  transition: all .5s;
+}
+#index .flower-Space .bd .bd-r .box:hover .imgBox img{
+  transform: scale(1.1);
+}
+/* 全部模板*************** */
+ #index .quanbu{
+  height: 810px;
+  background-color: #F7F9FA;
+}
+#index .quanbu .neirong{
+  height: 770px;
+  padding-top: 40px;
+}
+/* 爱情****** */
+/* #index .loveRegion{
+  height: 810px;
+  background-color: #F7F9FA;
+}
+#index .loveRegion .Flower5{
+  height: 770px;
+  padding-top: 40px;
+}   */
+        /*左边*/
+#index .loveRegion .Flower5 .bd .bd-l{
+  width: 288px;
+  height: 656px;
+  background: url(../images/love/lover.png);
+}
+/* 送长辈*************** */
+/* #index .elderRegion{
+  height: 810px;
+  background-color: #E9ECF0;
+}
+#index .elderRegion .Flower6{
+  height: 770px;
+  padding-top: 40px;
+}     */
+        /*左边*/
+#index .elderRegion .Flower6 .bd .bd-l{
+  width: 288px;
+  height: 656px;
+  background: url(../images/elder/elder.png);
+}
+ 
+
+/* 底部************** */
+#index .public-buttom {
+  background-color: #232628;
+}
+.public-buttom .box1 ul{
+  margin: 0;
+  text-align: left;
+}
+.public-buttom .box1 a{
+  float: left;
+
+}
+.public-buttom .box1 b{
+  float: left;
+  font-size: 18px;
+  padding-right: 8px;
+}
+.public-buttom .box1 a li{
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  padding-left: 10px;
+}
+.public-buttom .box1 a li:hover{
+  color: rgb(255, 106, 0);
+}
+.public-buttom .box2{
+  margin-top: 10px;
+  text-align: left;
+}
+.public-buttom .box3{
+  text-align: left;
+}
+.public-buttom .box3 a{
+  color: rgb(115, 115, 115);
+}
+.public-buttom .box3 a:hover {
+  color: rgb(255, 106, 0);
+}
+.public-buttom .box4{
+  margin-top: 5px;
+  text-align: left;
+}
+.public-buttom .box4 a{
+  color: rgb(115, 115, 115);
+}
+.public-buttom .box4 a:hover {
+  color: rgb(255, 106, 0);
+}
+.public-buttom .box5{
+  width: 1220px;
+  margin: 0 auto;
+  font-size: 13px;
+  margin-top: 5px;
+  color: rgb(115, 115, 115);
+}
+.public-buttom .box5 a{
+  color: rgb(115, 115, 115);
+}
+.public-buttom .box5 a:hover {
+  color: rgb(255, 106, 0);
+}
+
+      /* 响应式**** */
+      @media only screen and (min-width: 1920px) {
+        .slideBox {
+          width: 2400px;
+        }
+        .slideBox .bd img{
+          width: 100%;
+        }
+        /* 下面是前/后按钮代码，如果不需要删除即可 */
+      .slideBox .prev,
+      .slideBox .next {
+        left: 35%;
+      }
+      .slideBox .next {
+        left: auto;
+        right: 20%;
+      }
+      }
