@@ -1,4 +1,5 @@
-const baseURL=`http://localhost:1337/api/v1`;
+const baseURL=`http://shequ.lanlianhua.work/api/v1`;
+const imgUrl=`http://shequ.lanlianhua.work`
 //token  发送参数时需要token就会自动传入
 const AUTH_TOKEN = localStorage.getItem('token')
 axios.defaults.headers.common['token'] = AUTH_TOKEN;
